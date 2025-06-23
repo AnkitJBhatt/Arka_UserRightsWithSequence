@@ -1,0 +1,19 @@
+﻿USE [ArkaPRP83_UserAudit]
+GO
+/****** Object:  StoredProcedure [dbo].[UpdateScreenParameterMaster]    Script Date: 06-06-2025 11:12:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[UpdateScreenParameterMaster]
+@prm_Id int,
+@Screen_Id int,
+@Name nvarchar(100),
+@sequenceNumber int,
+@IsActive BIT,
+@IsDeleted BIT
+AS
+BEGIN
+    UPDATE [ScreenParameterMaster] SET ScreenMasterId = @Screen_Id, Name = @Name ,IsActive = @IsActive, IsDeleted = @IsDeleted ,
+    SequenceNumber = @sequenceNumber WHERE Id = @prm_Id;
+End

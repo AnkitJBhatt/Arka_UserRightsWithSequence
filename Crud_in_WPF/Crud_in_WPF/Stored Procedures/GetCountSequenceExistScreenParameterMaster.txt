@@ -1,0 +1,14 @@
+﻿USE [ArkaPRP83_UserAudit]
+GO
+/****** Object:  StoredProcedure [dbo].[GetCountSequenceExistScreenParameterMaster]    Script Date: 06-06-2025 11:16:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER Procedure [dbo].[GetCountSequenceExistScreenParameterMaster]
+@screenId int,
+@sequenceNumber int
+As
+Begin 
+    Select Count(*) From [ScreenParameterMaster] Where SequenceNumber = @sequenceNumber and ScreenMasterId = @screenId;
+End

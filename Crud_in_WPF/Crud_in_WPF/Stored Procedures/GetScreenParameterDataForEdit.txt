@@ -1,0 +1,15 @@
+﻿USE [ArkaPRP83_UserAudit]
+GO
+/****** Object:  StoredProcedure [dbo].[GetScreenParameterDataForEdit]    Script Date: 06-06-2025 11:10:28 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[GetScreenParameterDataForEdit]
+@id int
+AS
+BEGIN
+  Select SPM.Id,SM.Name as MainName,SPM.Name as ProductName,SPM.SequenceNumber as 
+  SequenceNumber,SPM.IsActive,SPM.IsDeleted  from [ScreenParameterMaster] as SPM join [ScreenMaster] as SM 
+  on SPM.ScreenMasterId = SM.Id where SPM.Id = @id;
+END

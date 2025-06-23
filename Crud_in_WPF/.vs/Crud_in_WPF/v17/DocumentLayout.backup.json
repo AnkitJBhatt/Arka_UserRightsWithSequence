@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Saurabh\\Crud_in_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\update\\editscreenmasterdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\update\\editscreenmasterdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\add\\addscreenparametermasterdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\add\\addscreenparametermasterdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\add\\addscreenmasterdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\add\\addscreenmasterdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\screenandparameter\\screenmasterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\screenandparameter\\screenmasterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\screenandparameter\\screenparametermasterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\screenandparameter\\screenparametermasterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\screenandparameter\\screenmasterpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\screenandparameter\\screenmasterpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\login\\signinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\login\\signinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|e:\\saurabh\\crud_in_wpf\\crud_in_wpf\\add\\addscreenmasterdata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C72C0-BA47-4093-B537-51FC89D7CEEA}|Crud_in_WPF\\Crud_in_WPF.csproj|solutionrelative:crud_in_wpf\\add\\addscreenmasterdata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditScreenMasterData.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Update\\EditScreenMasterData.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\Update\\EditScreenMasterData.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Update\\EditScreenMasterData.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\Update\\EditScreenMasterData.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T09:13:50.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddScreenParameterMasterData.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Add\\AddScreenParameterMasterData.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\Add\\AddScreenParameterMasterData.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Add\\AddScreenParameterMasterData.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\Add\\AddScreenParameterMasterData.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T09:10:44.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddScreenMasterData.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Add\\AddScreenMasterData.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\Add\\AddScreenMasterData.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Add\\AddScreenMasterData.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\Add\\AddScreenMasterData.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T09:00:05.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScreenMasterPage.xaml.cs",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml.cs",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml.cs",
+              "RelativeToolTip": "Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T04:44:17.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScreenMasterPage.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\ScreenAndParameter\\ScreenMasterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T04:43:53.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScreenParameterMasterPage.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\ScreenAndParameter\\ScreenParameterMasterPage.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\ScreenAndParameter\\ScreenParameterMasterPage.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\ScreenAndParameter\\ScreenParameterMasterPage.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\ScreenAndParameter\\ScreenParameterMasterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T08:47:49.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\App.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\App.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\App.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T03:40:14.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\MainWindow.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T07:16:03.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\App.config",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\App.config",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\App.config",
+              "RelativeToolTip": "Crud_in_WPF\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-23T04:36:36.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Crud_in_WPF\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T03:59:57.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Crud_in_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T03:57:46.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignInPage.xaml",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Login\\SignInPage.xaml",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\Login\\SignInPage.xaml",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Login\\SignInPage.xaml",
+              "RelativeToolTip": "Crud_in_WPF\\Login\\SignInPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T07:07:56.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddScreenMasterData.xaml.cs",
+              "DocumentMoniker": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Add\\AddScreenMasterData.xaml.cs",
+              "RelativeDocumentMoniker": "Crud_in_WPF\\Add\\AddScreenMasterData.xaml.cs",
+              "ToolTip": "E:\\Saurabh\\Crud_in_WPF\\Crud_in_WPF\\Add\\AddScreenMasterData.xaml.cs",
+              "RelativeToolTip": "Crud_in_WPF\\Add\\AddScreenMasterData.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:36:04.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

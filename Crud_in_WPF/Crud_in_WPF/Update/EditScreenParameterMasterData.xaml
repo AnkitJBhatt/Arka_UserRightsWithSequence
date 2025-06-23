@@ -1,0 +1,77 @@
+﻿<Window x:Class="Crud_in_WPF.Update.EditScreenParameterMasterData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crud_in_WPF.Update"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize"
+         Height="600" Width="550">
+    <Border  BorderBrush="#00203f" BorderThickness="1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid  Background="#00203f" Grid.Row="0">
+                <Label Content="Edit Screen Parameter" Style="{StaticResource mainLabelText}"/>
+            </Grid>
+            <Border Grid.Row="1">
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Screen Name : " Height="30" FontSize="16"/>
+                        <Label Content="" Name="txtModelName" VerticalContentAlignment="Center"  
+                         Height="40" Width="200" FontSize="20" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Parameter Name : " Height="30" FontSize="16"/>
+                        <TextBox x:Name="txtName" Text="" Height="auto"
+                        FontSize="20" 
+                         Width="auto" MaxWidth="300" VerticalContentAlignment="Center"
+                         TextWrapping="Wrap"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Label Content="Sequence Number :" HorizontalAlignment="Center" FontSize="16"/>
+                        <Grid Height="40" Width="300">
+                            <TextBox x:Name="txtSequence" VerticalContentAlignment="Center"
+                  Background="Transparent" FontSize="20" TextChanged="txtSequence_TextChanged" HorizontalContentAlignment="Center"/>
+                            <TextBlock x:Name="txtplaceholder2" FontSize="16" FontWeight="Bold" Text="Enter Sequence Number"
+                   VerticalAlignment="Center" Foreground="LightGray" Margin="5 0 0 0" HorizontalAlignment="Center"
+                    Panel.ZIndex="-1"/>
+                            <Button x:Name="btnClear2" Content="X" Foreground="DarkRed" Background="Transparent"
+                HorizontalAlignment="Right" BorderThickness="0" Width="30"
+                 Click="btnClear2_Click"/>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <CheckBox x:Name="checkIsActive"
+                         Content="Is Active " Unchecked="checkIsActive_Unchecked" 
+                          FontSize="16" VerticalContentAlignment="Center" Margin="0 0 20 0"
+                          Checked="checkIsActive_Checked"/>
+                        <CheckBox x:Name="checkIsDelete" Unchecked="checkIsDelete_Unchecked"
+                          Content="Is Deleted "  FontSize="16" VerticalContentAlignment="Center" 
+                          Margin="20 0 0 0" Checked="checkIsDelete_Checked"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Border Grid.Row="2" Margin="0 40">
+                <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
+                    <Button x:Name="Save" Content="Save"  
+                    Margin="0 0 10 0" Style="{StaticResource NormalButton}" 
+                    Click="Save_Click"/>
+                    <Button x:Name="Cancel" Content="Cancel" 
+                    Style="{StaticResource NormalButton}" Margin="10 0 0 0"
+                     Opacity="0.8" Click="Cancel_Click"/>
+                </StackPanel>
+            </Border>
+
+        </Grid>
+    </Border>
+    
+</Window>
