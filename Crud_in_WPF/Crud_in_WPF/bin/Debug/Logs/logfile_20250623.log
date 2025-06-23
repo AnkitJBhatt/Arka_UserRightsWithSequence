@@ -171,3 +171,22 @@
 2025-06-23 15:52:28,051 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenParameterMasterPage - Enter Screen Parameter Master Page.
 2025-06-23 15:52:29,179 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenParameterMasterPage - Clicked Add Screen Parameter Master Button.
 2025-06-23 15:52:31,859 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenParameterMasterPage - Clicked Edit Screen Parameter Master Button.
+2025-06-23 16:56:07,451 [1] INFO  Crud_in_WPF.App -         =============  Started Logging  =============        
+2025-06-23 16:56:07,473 [1] INFO  Crud_in_WPF.Login.SignInPage - ----Welcome to NKP----
+
+2025-06-23 16:56:09,376 [1] INFO  Crud_in_WPF.Login.SignInPage - Clicked Login Button
+2025-06-23 16:56:09,971 [1] INFO  Crud_in_WPF.MainWindow - Enter Select Screen Page.
+2025-06-23 16:56:38,461 [1] INFO  Crud_in_WPF.App -         =============  Started Logging  =============        
+2025-06-23 16:56:38,483 [1] INFO  Crud_in_WPF.Login.SignInPage - ----Welcome to NKP----
+
+2025-06-23 16:56:40,687 [1] INFO  Crud_in_WPF.Login.SignInPage - Clicked Login Button
+2025-06-23 16:56:41,248 [1] INFO  Crud_in_WPF.MainWindow - Enter Select Screen Page.
+2025-06-23 16:56:57,984 [1] INFO  Crud_in_WPF.App -         =============  Started Logging  =============        
+2025-06-23 16:56:58,014 [1] INFO  Crud_in_WPF.Login.SignInPage - ----Welcome to NKP----
+
+2025-06-23 16:57:00,342 [1] INFO  Crud_in_WPF.Login.SignInPage - Clicked Login Button
+2025-06-23 16:57:00,890 [1] INFO  Crud_in_WPF.MainWindow - Enter Select Screen Page.
+2025-06-23 16:57:22,965 [1] INFO  Crud_in_WPF.MainWindow - Clicked Screen Master Button.
+2025-06-23 16:57:22,966 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenMasterPage - Enter Screen Master Page.
+2025-06-23 16:57:26,734 [1] INFO  Crud_in_WPF.MainWindow - Clicked Screen Parameter Master Button.
+2025-06-23 16:57:26,734 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenParameterMasterPage - Enter Screen Parameter Master Page.

@@ -76,3 +76,45 @@ E:\Saurabh\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_.260C202D.Up2Date
 E:\Saurabh\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.exe
 E:\Saurabh\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.pdb
 E:\Saurabh\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.exe.config
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\log4net.config
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\Crud_in_WPF.exe.config
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\Crud_in_WPF.exe
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\Crud_in_WPF.pdb
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\log4net.dll
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\System.Diagnostics.EventLog.dll
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\System.Security.Principal.Windows.dll
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\log4net.pdb
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\log4net.xml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\System.Diagnostics.EventLog.xml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\bin\Debug\System.Security.Principal.Windows.xml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.csproj.AssemblyReference.cache
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Add\AddScreenParameterMasterData.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Login\SignInPage.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\MainWindow.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Add\AddScreenMasterData.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Add\AddScreenParameterMasterData.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Login\SignInPage.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\MainWindow.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\ScreenAndParameter\ScreenMasterPage.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\ScreenAndParameter\ScreenParameterMasterPage.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Update\EditScreenMasterData.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Update\EditScreenParameterMasterData.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\App.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF_Content.g.cs
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF_MarkupCompile.cache
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF_MarkupCompile.lref
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\App.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Add\AddScreenMasterData.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\ScreenAndParameter\ScreenMasterPage.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\ScreenAndParameter\ScreenParameterMasterPage.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Update\EditScreenMasterData.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Update\EditScreenParameterMasterData.baml
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.g.resources
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.Properties.Resources.resources
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.csproj.GenerateResource.cache
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.csproj.CoreCompileInputs.cache
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.csproj.CopyComplete
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.exe
+E:\Saurabh Git Work\Arka_UserRightsWithSequence\Crud_in_WPF\Crud_in_WPF\obj\Debug\Crud_in_WPF.pdb
