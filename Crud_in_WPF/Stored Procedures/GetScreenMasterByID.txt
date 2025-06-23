@@ -1,0 +1,13 @@
+﻿USE [ArkaPRP83_UserAudit]
+GO
+/****** Object:  StoredProcedure [dbo].[GetScreenMasterByID]    Script Date: 06-06-2025 11:03:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[GetScreenMasterByID]
+@id int
+AS
+BEGIN
+  Select * from [ScreenMaster] Where Id = @id;
+END

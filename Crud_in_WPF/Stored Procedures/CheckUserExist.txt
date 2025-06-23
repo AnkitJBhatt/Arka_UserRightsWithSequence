@@ -1,0 +1,14 @@
+﻿USE [ArkaPRP83_UserAudit]
+GO
+/****** Object:  StoredProcedure [dbo].[CheckUserExist]    Script Date: 06-06-2025 11:00:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER Procedure [dbo].[CheckUserExist]
+@username nvarchar(100),
+@password nvarchar(50)
+As
+begin
+	Select Count(Id) from [User] where UserName = @username AND Password = @password;
+End

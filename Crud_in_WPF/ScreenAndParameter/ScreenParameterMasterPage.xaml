@@ -1,0 +1,100 @@
+﻿<Window x:Class="Crud_in_WPF.ScreenAndParameter.ScreenParameterMasterPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crud_in_WPF.ScreenAndParameter"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid  Background="#00203f">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid  Background="#00203f" Grid.Column="0">
+                <!--LOGO-->
+                <!--<Label Content="Logo" Style="{StaticResource mainLabelText}" />-->
+                <Image Source="/Images/nkp.png" Margin="15"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Label Content="Screen Parameter Master " Style="{StaticResource mainLabelText}"/>
+            </Grid>           
+            <Image Grid.Column="2" Source="/Images/close.png" Height="45" Width="45"
+               HorizontalAlignment="Right" VerticalAlignment="Top" Panel.ZIndex="1"
+               MouseDown="Image_MouseDown"/>
+        </Grid>
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="3 0 0 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Add" Name="btnAdd"
+                    Background="#00203f" Click="btnAdd_Click" 
+                        Style="{StaticResource NormalButton}" Width="195"/>
+                <Button Grid.Row="1" Content="Edit" Name="btnEdit"
+                    Background="#00203f" Click="btnEdit_Click" 
+                        Style="{StaticResource NormalButton}" Width="195"/>
+                <Button Grid.Row="2" Content="Delete" Name="btnDelete"
+                     Background="#00203f" Style="{StaticResource NormalButton}" 
+                    Click="btnDelete_Click" Width="195"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Border BorderBrush="#00203f" BorderThickness="2 0 0 0" Margin="5 0 0 0">
+                </Border>
+            </Grid>
+
+            <Grid Grid.Column="2">
+                <!--Background="#4EB1B6" "#ADEFD1"  "#00203f" "#078282" "#4F617E" 
+                "#293241" "#374257"-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border BorderBrush="Black" Background="#4F617E"  BorderThickness="1 1 0 2">
+                    <Label HorizontalAlignment="Center" Content="Parameter's Table" FontSize="23" FontWeight="SemiBold" 
+                           />
+                </Border>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Label Name="dropLabel" Content="Select Screen : " FontSize="20" Margin="0 10"/>
+                    <ComboBox Name="screenMasterName" Width="300" Height="40" VerticalContentAlignment="Center"
+                      SelectionChanged="screenMasterName_SelectionChanged" FontSize="19"/>
+                </StackPanel>
+                <Grid Grid.Row="2" Margin="20">
+                    <DataGrid x:Name="dataGridScreenParameterMasterPage" Grid.Row="1" AutoGenerateColumns="False"
+                          SelectionMode="Single" HorizontalAlignment="Center"
+                           CanUserAddRows="False" CanUserDeleteRows="False"
+                          SelectionChanged="dataGridScreenParameterMasterPage_SelectionChanged"
+                           FontSize="20" FontWeight="SemiBold" IsReadOnly="True"
+                           ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                            <DataGridTextColumn Header="Parameter Name" Binding="{Binding ProductName}" Width="auto"/>
+                            <DataGridTextColumn Header="Screen Name" Binding="{Binding MainName}" Width="250"/>
+                            <DataGridTextColumn Header="Sequence Number" Binding="{Binding SequenceNumber}" Width="250"/>
+                            <DataGridCheckBoxColumn Header="IsActive" Binding="{Binding IsActive}" Width="100"/>
+                            <DataGridCheckBoxColumn Header="IsDeleted" Binding="{Binding IsDeleted}"  Width="100"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
