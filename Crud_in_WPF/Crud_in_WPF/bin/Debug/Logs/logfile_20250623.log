@@ -190,3 +190,6 @@
 2025-06-23 16:57:22,966 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenMasterPage - Enter Screen Master Page.
 2025-06-23 16:57:26,734 [1] INFO  Crud_in_WPF.MainWindow - Clicked Screen Parameter Master Button.
 2025-06-23 16:57:26,734 [1] INFO  Crud_in_WPF.ScreenAndParameter.ScreenParameterMasterPage - Enter Screen Parameter Master Page.
+2025-06-23 17:26:39,319 [1] INFO  Crud_in_WPF.App -         =============  Started Logging  =============        
+2025-06-23 17:26:39,353 [1] INFO  Crud_in_WPF.Login.SignInPage - ----Welcome to NKP----
+
