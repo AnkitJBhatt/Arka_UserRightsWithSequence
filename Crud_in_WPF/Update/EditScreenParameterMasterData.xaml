@@ -9,7 +9,7 @@
     <Border  BorderBrush="#00203f" BorderThickness="1">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
+                <RowDefinition Height="65"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
@@ -24,27 +24,32 @@
                         <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                    <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
-                        <Label Content="Screen Name : " Height="30" FontSize="16"/>
-                        <Label Content="" Name="txtModelName" VerticalContentAlignment="Center"  
-                         Height="40" Width="200" FontSize="20" />
+                    <StackPanel Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 10 0 0">
+                        <Label Content="Screen Name : " Height="30" FontSize="16" HorizontalAlignment="Center"/>
+                        <TextBox x:Name="txtModelName" Text="" Height="40" FontSize="16" Width="300" VerticalContentAlignment="Center" IsReadOnly="True"/>
                     </StackPanel>
-                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                        <Label Content="Parameter Name : " Height="30" FontSize="16"/>
-                        <TextBox x:Name="txtName" Text="" Height="auto"
-                        FontSize="20" 
-                         Width="auto" MaxWidth="300" VerticalContentAlignment="Center"
-                         TextWrapping="Wrap"/>
+                    <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <Label Content="Parameter Name : " Height="40" FontSize="16" HorizontalAlignment="Center"/>
+                        <Grid Height="auto" Width="300" MinHeight="40">
+                            <TextBox x:Name="txtName" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="270"
+                  Background="Transparent" FontSize="16" TextChanged="txtName_TextChanged" TextWrapping="Wrap"/>
+                            <TextBlock x:Name="txtplaceholder" FontSize="16" FontWeight="Bold" Text="Enter Parameter Name"
+                   VerticalAlignment="Center" Foreground="LightGray"  
+                    Panel.ZIndex="-1"/>
+                            <Button x:Name="btnClear" Content="X" Foreground="DarkRed"
+                HorizontalAlignment="Right" BorderThickness="0" Width="30"
+                 Click="btnClear_Click"/>
+                        </Grid>
                     </StackPanel>
                     <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="Sequence Number :" HorizontalAlignment="Center" FontSize="16"/>
-                        <Grid Height="40" Width="300">
-                            <TextBox x:Name="txtSequence" VerticalContentAlignment="Center"
-                  Background="Transparent" FontSize="20" TextChanged="txtSequence_TextChanged" HorizontalContentAlignment="Center"/>
+                        <Grid Height="auto" MinHeight="40" Width="300">
+                            <TextBox x:Name="txtSequence" VerticalContentAlignment="Center" Width="270" HorizontalAlignment="Left"
+                  Background="Transparent" FontSize="16" TextChanged="txtSequence_TextChanged" HorizontalContentAlignment="Center"/>
                             <TextBlock x:Name="txtplaceholder2" FontSize="16" FontWeight="Bold" Text="Enter Sequence Number"
                    VerticalAlignment="Center" Foreground="LightGray" Margin="5 0 0 0" HorizontalAlignment="Center"
                     Panel.ZIndex="-1"/>
-                            <Button x:Name="btnClear2" Content="X" Foreground="DarkRed" Background="Transparent"
+                            <Button x:Name="btnClear2" Content="X" Foreground="DarkRed"
                 HorizontalAlignment="Right" BorderThickness="0" Width="30"
                  Click="btnClear2_Click"/>
                         </Grid>
@@ -60,7 +65,7 @@
                     </StackPanel>
                 </Grid>
             </Border>
-            <Border Grid.Row="2" Margin="0 40">
+            <Border Grid.Row="2" Margin="0 0 0 50">
                 <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
                     <Button x:Name="Save" Content="Save"  
                     Margin="0 0 10 0" Style="{StaticResource NormalButton}" 

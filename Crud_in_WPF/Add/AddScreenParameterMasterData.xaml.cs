@@ -44,20 +44,6 @@ namespace Crud_in_WPF.Add
             {
                 logger.Error("Error Message - " + ex.Message + "\n" + ex.StackTrace);
             }
-
-            //using (SqlConnection con = new SqlConnection(cs))
-            //{
-            //    con.Open();
-            //    SqlCommand cmd = new SqlCommand("GetScreenNameNotDeleted", con);
-            //    cmd.CommandType = CommandType.StoredProcedure;
-            //    SqlDataAdapter da = new SqlDataAdapter(cmd);
-            //    DataTable dt = new DataTable();
-            //    da.Fill(dt);
-            //    da.Dispose();
-            //    screenName.ItemsSource = dt.DefaultView;
-            //    screenName.DisplayMemberPath = "Name";
-            //    screenName.SelectedValuePath = "Id";
-            //}
         }
 
         private void screenName_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -127,20 +113,6 @@ namespace Crud_in_WPF.Add
                 logger.Error("Error Message - " + ex.Message + "\n" + ex.StackTrace);
                 throw ex;
             }
-
-            //using (SqlConnection con = new SqlConnection(cs))
-            //{
-            //    con.Open();
-            //    string query = "Select Count(*) From [ScreenParameterMaster] Where SequenceNumber = @sequenceNumber";
-            //    SqlCommand cmd = new SqlCommand(query, con);
-            //    cmd.Parameters.AddWithValue("@sequenceNumber", sequenceNumber);
-            //    int row = (int)cmd.ExecuteScalar();
-            //    if (row > 0)
-            //    {
-            //        return true;
-            //    }
-            //    return false;
-            //}
         }
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
@@ -169,28 +141,6 @@ namespace Crud_in_WPF.Add
             {
                 logger.Error("Error Message - " + ex.Message + "\n" + ex.StackTrace);
             }
-            //using (SqlConnection con = new SqlConnection(cs))
-            //{
-            //    con.Open();
-            //    SqlCommand cmd = new SqlCommand("InsertIntoScreenParameterMaster", con);
-            //    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-            //    cmd.Parameters.AddWithValue("@ScreenMasterId", masterId);
-            //    cmd.Parameters.AddWithValue("@Name", Name);
-            //    cmd.Parameters.AddWithValue("@sequenceNumber", sequenceNumber);
-            //    cmd.Parameters.AddWithValue("@isActive", isActive);
-            //    cmd.Parameters.AddWithValue("@isDeleted", false);
-            //    int row = cmd.ExecuteNonQuery();
-            //    if (row > 0)
-            //    {
-            //        MessageBox.Show("Data inserted successfully!!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-            //        txtSM_Name.Clear();
-            //        this.Close();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Data insertion failed!!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            //    }
-            //}
         }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)

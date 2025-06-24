@@ -8,7 +8,7 @@
     <Border BorderBrush="#00203f" BorderThickness="1 0 1 1">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
+                <RowDefinition Height="65"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <Grid  Background="#00203f">
@@ -31,26 +31,26 @@
                     </StackPanel>
                     <StackPanel  Grid.Row="1" Margin="0 20 0 0">
                         <Label Content="Parameter Name : " HorizontalAlignment="Center" FontSize="16"/>
-                        <Grid Height="40" Width="300">
-                            <TextBox x:Name="txtSM_Name" VerticalContentAlignment="Center"
-                  Background="Transparent" TextChanged="txtSM_Name_TextChanged" FontSize="18"/>
+                        <Grid Height="auto" MinHeight="40" Width="300">
+                            <TextBox x:Name="txtSM_Name" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="270"
+                  Background="Transparent" TextChanged="txtSM_Name_TextChanged" FontSize="16" TextWrapping="Wrap"/>
                             <TextBlock x:Name="txtplaceholder" FontSize="16" FontWeight="Bold" Text="Enter Name"
                    VerticalAlignment="Center" Foreground="LightGray" Margin="5 0 0 0"
                     Panel.ZIndex="-1"/>
-                            <Button x:Name="btnClear" Content="X" Foreground="DarkRed" Background="Transparent"
+                            <Button x:Name="btnClear" Content="X" Foreground="DarkRed"
                 HorizontalAlignment="Right" BorderThickness="0" Width="30"
                 Click="btnClear_Click"/>
                         </Grid>
                     </StackPanel>
                     <StackPanel Grid.Row="2" HorizontalAlignment="Center"  Margin="0 20 0 0">
                         <Label Content="Sequence Number :" HorizontalAlignment="Center" FontSize="16"/>
-                        <Grid Height="40" Width="300">
-                            <TextBox x:Name="txtSequence" VerticalContentAlignment="Center"
-                  Background="Transparent" TextChanged="txtSequence_TextChanged"  FontSize="18"/>
+                        <Grid Height="auto" MinHeight="40" Width="300">
+                            <TextBox x:Name="txtSequence" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="270"
+                  Background="Transparent" TextChanged="txtSequence_TextChanged"  FontSize="16" HorizontalContentAlignment="Center"/>
                             <TextBlock x:Name="txtplaceholder2" FontSize="16" FontWeight="Bold" Text="Enter Sequence Number"
                    VerticalAlignment="Center" Foreground="LightGray" Margin="5 0 0 0"
-                    Panel.ZIndex="-1"/>
-                            <Button x:Name="btnClear2" Content="X" Foreground="DarkRed" Background="Transparent"
+                    Panel.ZIndex="-1" HorizontalAlignment="Center"/>
+                            <Button x:Name="btnClear2" Content="X" Foreground="DarkRed"
                 HorizontalAlignment="Right" BorderThickness="0" Width="30"
                  Click="btnClear2_Click"/>
                         </Grid>

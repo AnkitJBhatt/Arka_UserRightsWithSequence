@@ -21,15 +21,17 @@
                 </LinearGradientBrush>
             </Border.Background>
             <Grid>
-                <StackPanel VerticalAlignment="Center">
-                    <Image Source="/Images/NKPLogoMedium.png" Height="150" Margin="0 0 0 50"/>
-                    <TextBlock Text="Welcome to NKP" Style="{StaticResource mainTitleText}"/>
-                    <TextBlock Text="Choose Your Display"
-                               Style="{StaticResource TitleText}" Margin="0 20 0 0"/>
-                    <TextBlock Text="Update Screen Master"
+                <StackPanel VerticalAlignment="Top">
+                    <Image Source="/Images/NKPLogoMedium.png" Height="150" Margin="0 200 0 0"/>
+                    <StackPanel Margin="0 80 0 0">
+                        <TextBlock Text="Welcome to NKP" Style="{StaticResource mainTitleText}"/>
+                        <TextBlock Text="Choose Your Display"
+                               Style="{StaticResource TitleText}" Margin="0 50 0 0"/>
+                                <TextBlock Text="Update Screen Master For User Rights."
                                Style="{StaticResource TitleText}" FontWeight="Normal" FontSize="17"/>
-                    <TextBlock Text="Update Screen Parameter Master"
+                        <TextBlock Text="Update Screen Parameter Master For User Rights."
                                Style="{StaticResource TitleText}" FontWeight="Normal" FontSize="17"/>
+                    </StackPanel>
                 </StackPanel>
             </Grid>
         </Border>
@@ -49,18 +51,6 @@
                 <Button Grid.Row="2" Content="Close" Style="{StaticResource NormalButton1}"
  Name="btnClose" Click="btnClose_Click"/>
             </Grid>
-            <!--<StackPanel VerticalAlignment="Center">
-
-                <Button Height="60" Width="350" Content="Screen Master" 
-                 Name="btnScreenMaster" Style="{StaticResource NormalButton}" Background="#00203f" Click="btnScreenMaster_Click"/>
-
-                <Button x:Name="btnScreenMasterPrmt" Style="{StaticResource NormalButton}" Background="#00203f"
-                        Content="Screen Parameter Master" Height="60" Width="350" Click="btnScreenMasterPrmtr_Click"/>
-
-                <Button Grid.Row="2" Height="60" Width="350" Content="Close" Background="#00203f" Style="{StaticResource NormalButton}"
-                Name="btnClose" Click="btnClose_Click"/>
-
-            </StackPanel>-->
         </Border>
     </Grid>
 </Window>
