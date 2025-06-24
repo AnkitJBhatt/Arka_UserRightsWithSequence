@@ -40,7 +40,7 @@ namespace Crud_in_WPF.Update
                 SqlDataReader reader = SqlHelper.ExecuteReader(cs, "GetScreenParameterDataForEdit", id);
                 while (reader.Read())
                 {
-                    txtModelName.Content = reader["MainName"].ToString().Trim();
+                    txtModelName.Text = reader["MainName"].ToString().Trim();
                     txtName.Text = reader["ProductName"].ToString().Trim();
                     txtSequence.Text = reader["SequenceNumber"].ToString();
                     checkIsActive.IsChecked = (bool)reader["IsActive"];
@@ -196,6 +196,20 @@ namespace Crud_in_WPF.Update
                 txtplaceholder2.Visibility = Visibility.Visible;
             else
                 txtplaceholder2.Visibility = Visibility.Hidden;
+        }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtName.Clear();
+            txtName.Focus();
+        }
+
+        private void txtName_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtName.Text))
+                txtplaceholder.Visibility = Visibility.Visible;
+            else
+                txtplaceholder.Visibility = Visibility.Hidden;
         }
     }
 }

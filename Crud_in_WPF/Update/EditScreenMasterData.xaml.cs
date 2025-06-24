@@ -13,7 +13,6 @@ namespace Crud_in_WPF.Update
     public partial class EditScreenMasterData : Window
     {
         private int ScreenId;
-        //int sequenceNumber;
         private static readonly ILog logger = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         string cs = ConfigurationManager.ConnectionStrings["connectionString"].ConnectionString;
         public EditScreenMasterData(int ScreenId)
@@ -199,22 +198,5 @@ namespace Crud_in_WPF.Update
             else
                 txtplaceholder.Visibility = Visibility.Hidden;
         }
-
-        //private void txtSequence_PreviewTextInput(object sender, System.Windows.Input.TextCompositionEventArgs e)
-        //{
-        //    Regex regex = new Regex("^(100|[1-9][0-9]?)$");
-        //    TextBox textBox = sender as TextBox;
-        //    if (textBox != null)
-        //    {
-        //        string oldText = textBox.Text;
-        //        string newText = oldText.Insert(textBox.CaretIndex, e.Text);
-        //        if (!regex.IsMatch(newText))
-        //        {
-        //            MessageBox.Show("Sequence number contain only an integer Value and number between 1-100 !!", 
-        //                "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-        //            return;
-        //        }               
-        //    }        
-        //}
     }
 }

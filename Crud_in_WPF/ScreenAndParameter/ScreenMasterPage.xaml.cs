@@ -45,18 +45,6 @@ namespace Crud_in_WPF.ScreenAndParameter
             {
                 logger.Error("Error Message - " + ex.Message + "\n" + ex.StackTrace);
             }
-
-            //using (SqlConnection con = new SqlConnection(cs))
-            //{
-            //    con.Open();
-            //    SqlCommand cmd = new SqlCommand("GetScreenName", con);
-            //    cmd.CommandType = CommandType.StoredProcedure;
-            //    SqlDataAdapter da = new SqlDataAdapter(cmd);
-            //    DataTable dt = new DataTable();
-            //    da.Fill(dt);
-            //    dataGridScreenMasterPage.ItemsSource = dt.DefaultView;
-            //    dataGridScreenMasterPage.SelectedValuePath = "Id";
-            //}
         }
 
         private void dataGridScreenMasterPage_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -161,22 +149,6 @@ namespace Crud_in_WPF.ScreenAndParameter
                             logger.Info("Data Deleted of Screen Master Page Successfully.");
 
                     }
-                    //using (SqlConnection con = new SqlConnection(cs))
-                    //{
-                    //    con.Open();;
-                    //    SqlCommand cmd = new SqlCommand("DeleteScreenMaster", con);
-                    //    cmd.CommandType = CommandType.StoredProcedure;
-                    //    cmd.Parameters.Add(new SqlParameter("@id", SqlDbType.Int) { Value = screenId });
-                    //    int row = cmd.ExecuteNonQuery();
-                    //    if (row > 0)
-                    //    {
-                    //        MessageBox.Show("Data Deleted Successfully!!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-                    //    }
-                    //    else
-                    //    {
-                    //        MessageBox.Show("Data didn't Delete!!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    //    }
-                    //}
                 }
                 catch (Exception ex)
                 {

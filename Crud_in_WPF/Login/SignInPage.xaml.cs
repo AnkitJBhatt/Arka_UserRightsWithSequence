@@ -129,24 +129,6 @@ namespace Crud_in_WPF.Login
                 logger.Error("Error Message - " + ex.Message + "\n" + ex.StackTrace);
                 throw ex;
             }
-
-            //using (SqlConnection con = new SqlConnection(cs))
-            //{
-
-            //    con.Open();
-            //    //string query = "Select Count(*) from [User] where username = @username AND password = @password";
-            //    //SqlCommand cmd = new SqlCommand(query, con);
-            //    SqlCommand cmd = new SqlCommand("CheckUserExist", con);
-            //    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-            //    cmd.Parameters.AddWithValue("@username", username);
-            //    cmd.Parameters.AddWithValue("@password", password);
-            //    int row = (int)cmd.ExecuteScalar();
-            //    if (row > 0)
-            //    {
-            //        return true;
-            //    }
-            //}
-            //return false;
         }
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)

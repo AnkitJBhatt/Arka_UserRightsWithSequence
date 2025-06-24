@@ -49,8 +49,6 @@
                                 <TextBox x:Name="txtUserName" Style="{StaticResource inputTextBox}"
                                          TextChanged="txtUserName_TextChanged"/>
                                 <TextBlock x:Name="txtplaceholder" Style="{StaticResource placeholder}" Text="Enter user name"/>
-                                <!--<Button x:Name="btnClear" Content="X" Foreground="Red" Width="30" HorizontalAlignment="Right"
-                                        Click="btnClear_Click"/>-->
                             </Grid>
                         </Grid>
                     </Border>

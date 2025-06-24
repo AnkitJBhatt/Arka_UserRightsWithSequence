@@ -19,8 +19,6 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             <Grid  Background="#00203f" Grid.Column="0">
-                <!--LOGO-->
-                <!--<Label Content="Logo" Style="{StaticResource mainLabelText}" />-->
                 <Image Source="/Images/nkp.png" Margin="15"/>
             </Grid>
             <Grid Grid.Column="1">
@@ -60,16 +58,13 @@
             </Grid>
 
             <Grid Grid.Column="2">
-                <!--Background="#4EB1B6" "#ADEFD1"  "#00203f" "#078282" "#4F617E" 
-                "#293241" "#374257"-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Border BorderBrush="Black" Background="#4F617E"  BorderThickness="1 1 0 2">
-                    <Label HorizontalAlignment="Center" Content="Parameter's Table" FontSize="23" FontWeight="SemiBold" 
-                           />
+                <Border BorderBrush="Black"   BorderThickness="0 0 0 2">
+                    <Label HorizontalAlignment="Center" Content="Parameter's Table" FontSize="23" FontWeight="SemiBold"/>
                 </Border>
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
                     <Label Name="dropLabel" Content="Select Screen : " FontSize="20" Margin="0 10"/>
